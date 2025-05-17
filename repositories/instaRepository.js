@@ -3,7 +3,7 @@ const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 
 puppeteer.use(StealthPlugin());
 
-async function getInstaMedia(url) {
+async function downloadInstaMedia(url) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -43,4 +43,4 @@ async function getInstaMedia(url) {
   }
 }
 
-module.exports = { getInstaMedia };
+module.exports = { downloadInstaMedia };
