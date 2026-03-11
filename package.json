@@ -3,7 +3,7 @@
     "@bochilteam/scraper": "^5.0.1",
     "@wppconnect-team/wppconnect": "^1.37.1",
     "axios": "^1.12.2",
-    "file-type": "^20.5.0",
+    "file-type": "^21.3.1",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "qrcode-terminal": "^0.12.0",
